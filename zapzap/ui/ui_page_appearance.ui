@@ -66,20 +66,6 @@
            <string>Style</string>
           </property>
           <layout class="QGridLayout" name="gridLayout">
-           <item row="0" column="2">
-            <widget class="QRadioButton" name="theme_dark_radioButton">
-             <property name="text">
-              <string>Dark</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="1">
-            <widget class="QRadioButton" name="theme_light_radioButton">
-             <property name="text">
-              <string>Light</string>
-             </property>
-            </widget>
-           </item>
            <item row="0" column="0">
             <widget class="QRadioButton" name="theme_auto_radioButton">
              <property name="text">
@@ -90,31 +76,22 @@
              </property>
             </widget>
            </item>
-           <item row="0" column="3">
-            <widget class="QRadioButton" name="theme_custom_radioButton">
+           <item row="0" column="1">
+            <widget class="QRadioButton" name="theme_light_radioButton">
              <property name="text">
-              <string>Custom</string>
+              <string>Light</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QRadioButton" name="theme_dark_radioButton">
+             <property name="text">
+              <string>Dark</string>
              </property>
             </widget>
            </item>
           </layout>
          </widget>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_2">
-          <item>
-           <widget class="QLineEdit" name="custom_color_1"/>
-          </item>
-          <item>
-           <widget class="QLineEdit" name="custom_color_2"/>
-          </item>
-          <item>
-           <widget class="QLineEdit" name="custom_color_3"/>
-          </item>
-          <item>
-           <widget class="QLineEdit" name="custom_color_4"/>
-          </item>
-         </layout>
         </item>
         <item>
          <widget class="QGroupBox" name="tray_groupBox">

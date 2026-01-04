@@ -60,8 +60,7 @@ packages = [
 # Arquivos de tradução e JS incluídos como dados, não pacotes
 zapzap = [
   "po/*/LC_MESSAGES/*.mo",
-  "js/*",
-  "extensions/*"
+  "js/*"
 ]
 
 [tool.setuptools.data-files]
